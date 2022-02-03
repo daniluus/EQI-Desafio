@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Investimentos</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="aside_style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Simulador de Investimentos</h1>
+
+    <aside>
+      <h2>Simulador</h2>
+
+      <section class="simulador">
+        <div class="conteudo">
+          <div class="title">
+            <p>Rendimento</p>
+            <img src="./img/i.png" alt="i">
+          </div>
+
+          <div class="opcoes">
+            <a href="" id="bruto">Bruto</a>
+            <a href="" id="liquido">Líquido</a>
+          </div>
+
+          <section class="formulario">
+            <div class="input-box">
+              <p>Aporte Inicial</p>
+              <input type="text" value="R$ ">
+            </div>
+
+            <div class="input-box">
+              <p>Prazo (em meses)</p>
+              <input type="text">
+            </div>
+
+            <div class="input-box">
+              <p>IPCA (ao ano)</p>
+              <input type="text">
+            </div>
+          </section>
+        </div>
+
+        <div class="conteudo">
+          <div class="title">
+            <p>Tipos de indexação</p>
+            <img src="./img/i.png" alt="i">
+          </div>
+
+          <div class="opcoes">
+            <a href="" id="pre">PRÉ</a>
+            <a href="" id="pos">POS</a>
+            <a href="" id="fixado">FIXADO</a>
+          </div>
+
+          <section class="formulario">
+            <div class="input-box">
+              <p>Aporte Mensal</p>
+              <input type="text" value="R$ ">
+            </div>
+
+            <div class="input-box">
+              <p>Rentabilidade</p>
+              <input type="text">
+            </div>
+
+            <div class="input-box">
+              <p>CDI (ao ano)</p>
+              <input type="text">
+            </div>
+          </section>
+        </div>
+
+
+
+
+      </section>
+
+      <section class="buttons">
+        <button id="limpar">Limpar campos</button>
+        <button id="simular">Simular</button>
+      </section>
+    </aside>
+  </div>
+</body>
+
+</html>

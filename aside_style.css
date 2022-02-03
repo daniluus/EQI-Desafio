@@ -1,0 +1,130 @@
+a {
+  text-decoration: none;
+}
+
+aside {
+  padding: 40px;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+.simulador {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 35vw;
+
+  justify-content: start;
+
+  padding-top: 20px;
+}
+
+/* OPÇÕES */
+.title {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.title p {
+  font-size: 0.8rem;
+}
+
+.title img {
+  width: 15px;
+  height: 15px;
+}
+
+.opcoes {
+  display: flex;
+
+  padding-top: 10px;
+}
+
+.opcoes a {
+  display: inline-block;
+  background-color: #f4f4f4;
+
+  font-size: 12px;
+  color: #111;
+
+  padding: 10px 20px;
+
+  border: 1px solid #111;
+}
+
+#bruto {
+  border-radius: 10px 0 0 10px;
+}
+
+#liquido {
+  border-radius: 0 10px 10px 0;
+}
+
+#pre {
+  border-radius: 10px 0 0 10px;
+}
+
+#fixado {
+  border-radius: 0 10px 10px 0;
+}
+
+/* FORMULÁRIOS */
+
+.formulario {
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.formulario p {
+  font-size: 12px;
+}
+
+.input-box {
+  width: 80%;
+  border-bottom: 1px solid #111;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.formulario input {
+  background: transparent;
+
+  width: 90%;
+
+  border: none;
+  outline: none;
+  padding-top: 20px;
+}
+
+.buttons {
+  padding-top: 20px;
+}
+
+.buttons button {
+  font-size: 20px;
+
+  width: 210px;
+  height: 50px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#limpar {
+  border: 1px solid #111;
+  margin-right: 10px;
+}
+
+#simular {
+  background-color: #ed8e53;
+}

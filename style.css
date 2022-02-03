@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: #efefef;
+
+  height: 100%;
+
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+
+  padding-top: 20px;
+}
